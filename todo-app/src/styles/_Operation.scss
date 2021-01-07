@@ -1,0 +1,25 @@
+.operation {
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+
+  &__time {
+    background-color: green;
+    border-radius: 0.7em;
+    color: white;
+    padding: 0.1em 0.5em;
+    font-size: 0.8em;
+    display: inline-block;
+  }
+
+  &__input {
+    height: 25px;
+    border: 1px solid #ddd;
+    transform: translate(0, 1px);
+    border-radius: 3px;
+    padding-left: 5px;
+  }
+}

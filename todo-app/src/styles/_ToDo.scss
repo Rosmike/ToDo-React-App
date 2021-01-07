@@ -1,0 +1,53 @@
+.todo {
+  width: 100%;
+  min-height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  margin-top: 40px;
+
+  &__header {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__description {
+    margin: 0;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  &__input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 20px;
+  }
+
+  &__btn {
+    width: 52px;
+  }
+
+  &__operations {
+    padding: 0;
+  }
+}
